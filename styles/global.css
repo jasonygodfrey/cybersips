@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+/* For Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+/* For Internet Explorer and Edge */
+body::-ms-scrollbar {
+  width: 10px;
+}
+
+body::-ms-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-ms-scrollbar-thumb {
+  background: #000000;
+}

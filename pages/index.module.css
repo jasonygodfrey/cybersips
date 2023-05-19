@@ -1,0 +1,285 @@
+@font-face {
+  font-family: 'JMH Typewriter-Bold';
+  src: url('/fonts/JMH_Typewriter-Bold.ttf') format('truetype');
+
+}
+
+
+
+.title {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 50%; /* Set the desired width relative to the window size */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 500px; /* Set the maximum width for the image */
+  max-height: 100px; /* Set the maximum height for the image */
+  min-width: 300px; /* Add this line to set the minimum width */
+
+}
+
+
+
+
+.container {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  background-image: url('/mainwebsite.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Increase the background size to 110% */
+  background-attachment: fixed;
+}
+
+.content {
+  flex-grow: 1;
+  position: absolute;
+  top: 25%;
+  left: 10%; /* Move the logo 20% to the right */
+  width: 20%; /* Set the width of the logo */
+  height: auto; /* Maintain the aspect ratio */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: invert(100%);
+  background-color: #ffffff;
+  min-width: 150px; /* increase the minimum width to 500px */
+  border: 2px solid rgb(0, 0, 0); /* Add this line to create a white frame on the top edge */
+z-index: 1;
+}
+
+.content:hover {
+  filter: invert(0%);
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex; /* Change to flex */
+  justify-content: space-between;
+  flex-wrap: wrap; /* Add flex-wrap */
+  font-family: 'JMH Typewriter-Bold', sans-serif;
+}
+
+.buttonRowContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 80%; /* Change this line to position the button rows 20% higher */
+  left: 10%;
+  width: 65%; /* Set the width of the buttonRowContainer */
+  font-family: 'JMH Typewriter-Bold', sans-serif;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between; /* Add space between the bottom row buttons */
+  align-items: center;
+  align-self: flex-end; /* Add this line to move the buttons to the bottom of the screen */
+  padding: 0;
+  width: 100%; /* Set the width of the buttonRow */
+  font-family: 'JMH Typewriter-Bold', sans-serif;
+}
+.button {
+  background-color: #000000;
+  color: white;
+  border: 0px solid #000000;
+  padding: 4vh 4vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'JMH Typewriter-Bold', sans-serif;
+}
+
+.topButton {
+  margin-right: 1vw; /* Add space between the top buttons */
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.sidebarButton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ffffff;
+  padding: 4vh 4vw;
+  cursor: pointer;
+  text-align: center; /* Add this line */
+  transition: background-color 0.3s;
+  font-family: 'JMH Typewriter-Bold', sans-serif;
+}
+
+.sidebarButton:hover {
+  background-color: #f1f1f1;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255); /* Add this line to create a white border on hover */
+}
+.bottomButton {
+  transform: scale(2); /* Adjust this value as desired to change the scale */
+  padding: 0;
+  border: 4px solid white; /* Add a white frame */
+  background-color: rgba(0, 0, 0, 0.5); /* Make the black part 50% transparent */
+}
+
+.imageContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  transform: translate(-50%, -50%); /* Add this line to adjust the positioning */
+}
+.socialButton {
+  width: 150px; /* Set the desired width here */
+}
+
+
+
+.centerImage {
+  border: 2px solid white; /* Add a white border around the center image */
+  
+}
+
+
+
+
+.button1b {
+  background-image: url('/button1b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.button2b {
+  background-image: url('/button2b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button3b {
+  background-image: url('/button3b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button4b {
+  background-image: url('/button4b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  margin-bottom: 10vh; /* Add or adjust this line to reduce the space below button 4b. */
+}
+.button5b {
+  background-image: url('/button5b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button6b {
+  background-image: url('/button6b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button7b {
+  background-image: url('/button7b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button8b {
+  background-image: url('/button8b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button9b {
+  background-image: url('/button9b.pn');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -30vh; /* Add or adjust this line to reduce the space above button 9b. */
+  position: relative; /* Add this line to enable the use of the 'top' property */
+  
+}
+.button9b:hover {
+  filter: invert(100%);
+}
+
+.button4b:hover {
+  filter: invert(100%);
+}
+.button1b:hover {
+  filter: invert(100%);
+}
+
+.instagramLink {
+  position: relative;
+  top: 20%; /* Adjust this value to move the Instagram button down */
+  font-family: 'JMH Typewriter-Bold', sans-serif;
+}
+
+.twitterLink {
+  position: relative;
+  font-family: 'JMH Typewriter-Bold', sans-serif;
+}
+
+
+.sidebarLinkWrapper {
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+.socialButton {
+  width: 150px; /* Set the desired width here */
+  display: flex;
+  justify-content: center;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.instagramLink,
+a.twitterLink {
+  text-decoration: none;
+}
+
+
+.textContainer {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+}
+
